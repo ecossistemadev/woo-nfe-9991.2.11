@@ -1,0 +1,28 @@
+{
+	"name": "nfe",
+	"title": "WooCommerce NFe",
+	"version": "9991.2.11",
+	"author": "NFe.io",
+	"homepage": "https://github.com/nfe/woo-nfe",
+	"description": "WooCommerce extension for issuing invoices using the NFe.io API",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nfe/woo-nfe.git"
+	},
+	"main": "Gruntfile.js",
+	"devDependencies": {
+		"@wordpress/env": "^8.11.0",
+		"grunt": "^1.6.1",
+		"grunt-checktextdomain": "^1.0.1",
+		"grunt-wp-i18n": "^1.0.3",
+		"load-grunt-tasks": "^5.1.0"
+	},
+	"engines": {
+		"node": ">=10.0.0",
+		"npm": ">=1.1.0"
+	},
+	"scripts": {
+		"wp-env": "wp-env",
+		"grunt": "grunt"
+	}
+}
