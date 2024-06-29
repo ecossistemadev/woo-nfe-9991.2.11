@@ -580,7 +580,8 @@ if ( ! class_exists( 'NFe_Woo' ) ) {
     				}
 				}
 			    
-				// Person Type.
+				// Código ANTIGO que usava os campos do plugin "woocommerce-extra-checkout-fields-for-brazil"
+				// Person Type.s
 				// $type = get_post_meta( $order, '_billing_persontype', true );
 
 				// // Customer info.
