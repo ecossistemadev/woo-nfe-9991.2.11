@@ -5,7 +5,6 @@ name: 🚀 🔨 Subir no servidor FTP de Produção
 on:
   push:
     branches: [ main ]
-    
 jobs:
   web-deploy:
     name: 🚀 🔨 Subir no servidor FTP de Produção
@@ -13,7 +12,6 @@ jobs:
     steps:
     - name: 🚚 Obtenha o código mais recente do github
       uses: actions/checkout@v2
-
 
     - name: ☁️ Sincronizar arquivos no servidor FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
